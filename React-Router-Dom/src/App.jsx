@@ -13,7 +13,7 @@ const App = () => {
               <li>
                 <Link to="/">Home</Link>
               </li>
-              <li> <Link to="/about">About</Link></li>
+              <li> <Link className="hover:text-[white]" to="/about">About</Link></li>
               <li><Link to="/portfolio">Portfolio</Link></li>
               <li> <Link to="/serves">Serves</Link></li>
             </ul>
